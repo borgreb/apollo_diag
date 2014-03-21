@@ -1,1 +1,2 @@
-curl -u admin:password http://localhost:61680/broker/virtual-hosts.json| ./jsonformatter.pl
+#!/bin/bash
+curl -u admin:password http://localhost:61680/broker/virtual-hosts.json
